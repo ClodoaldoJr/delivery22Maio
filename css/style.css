@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body header {
+    height: 70px;
+    background-color: #DA5C5C;
+}
+
+body section{
+    height: calc(100vh - 155px);
+    background-color: #FFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body section .container{
+    width: 1080px;
+    height: 450px;
+    display: flex;
+    
+}
+  
+body section .container .sideLeft{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    
+}
+body section .container .sideLeft .sideLeft0{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+   
+}
+
+body section .container .sideLeft .sideLeft0 .faça {
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+body section .container .sideLeft .sideLeft0 .escolha {
+    font-size: 24px;
+    color:#9E9E9E ;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+   
+}
+
+body section .container .sideLeft .sideLeft0 .btn {
+    background-color: #DA5C5C;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+body section .container .sideRight {
+    width: 100%;
+    height: 100%;
+    background-image: url("./../img/background.svg");
+    background-repeat: no-repeat;
+    
+}
+
+body footer {
+    height: 85px;
+    background-color: #263238;
+}
