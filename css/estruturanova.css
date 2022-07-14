@@ -12,10 +12,45 @@ body header {
 body #etapas {
     height: 100px;
     background-color: #ececec;
+   
+   
 }
+
+.numeropedido {
+    width: 250px;
+    height: 50px;
+    background-color: #DA5C5C;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 75%;
+    justify-content: center;
+    align-items: center;
+   
+}
+span {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    
+}
+/* 
+#texto01 {
+    width: 250px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 650px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+} */
+
 body #cardapio {
-    width: 450px;
-    height: 450px;
+    width: 800px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -23,6 +58,7 @@ body #cardapio {
 
 }
 body #cardapio  .container {
+    margin-top: 20px;
         background-color: #919191;
         display: flex;
         justify-content: space-evenly;
@@ -32,8 +68,9 @@ body #cardapio  .container {
 }
 body #cardapio .container .sabores {
    
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 300px;
+    margin: 10px;
     background-color: aquamarine;
     border: 1px solid black;
     border-radius: 10px;
@@ -43,8 +80,14 @@ body #cardapio .container .sabores {
 }
 
 body #mapa {
-    height: 100px;
+    height: 400px;
+    width: 1000px;
     background-color: #968282;
+    display: flex;
+    justify-content: center;
+    margin-left: 435px;
+    margin-top: 30px;
+    border-radius: 10px;
     
 }
 
