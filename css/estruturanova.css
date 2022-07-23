@@ -3,24 +3,29 @@ body {
     padding: 0;
     background-color: rgb(240, 240, 240);
     box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
+body header {
     display: flex;
-    background-color: rgb(231, 66, 66);
+    background-color: #FB3737;
     height: 80px;
     width: 100%;
 }
 
- .logo {
+body header .logo {
     display: flex;
-    height: 45px;
+    height: 80px;
     width: 45px;
-    margin-left: 5%;
-    margin-top: -5px;
+    margin-left: 65px;
+    margin-top: 0px;
 }
 
-.nomeempresa {
+body header .nomeempresa {
 
     display: flex;
     justify-content: center;
@@ -29,11 +34,11 @@ body {
     margin-left: 50px;
     margin-top: 26px;
     font-size: 30px;
-    font-weight: bold;
+    font-family: sans-serif;
     
 }
 
-section {
+body section {
     background-color: white; 
     display: flex;
     align-items: center;
@@ -43,60 +48,65 @@ section {
 }
 
 
-.etapas .texto1 h2{
+body section .texto1 h2{
     display: flex;
     margin-left: 10em;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
+    font-family: sans-serif;
     width: 150px;
-    color: rgb(221, 75, 75);
+    color: #FB3737;
 }
 
-.texto2 h3{
+body section .texto2 h3{
     display: flex;
     font-size: 18px;
     align-items: center;
     justify-content: center;
     margin-top: -20px;
     margin-left: 185px;
-    width: 300px;
+    width: 322px;
     height: 10px;
     color: rgba(161, 161, 161, 0.918);
     position: absolute;
+    font-family: sans-serif;
+    font-weight: 400;
 }
 
-.texto2 b {
+body section .texto2 b {
     display: flex;
     margin-right: 10px;
     font-size: 22px;
-    color: rgb(235, 53, 53);
+    color: #FB3737;
 }
 
-.texto3 h4 {
+body section .texto3 h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 5px;
     margin-left: 190px;
     color: rgba(161, 161, 161, 0.918);
     position: absolute;
+    font-family: sans-serif;
+    font-weight: 400;
 }
 
-.texto3 b {
+body section .texto3 b {
     display: flex;
     margin-right: 10px;
     font-size: 22px;
-    color: rgb(235, 53, 53);
+    color: #FB3737;
 }
 
-.texto3 .negrito {
+body section .texto3 .negrito {
     color: rgb(97, 95, 95);
     font-size: 17px;
 }
 
-.npedido {
-    background-color: rgb(218, 77, 77);
+body section .npedido {
+    background-color: #FB3737;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,19 +119,20 @@ section {
     box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
 }
 
-.container {
+body .container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     height: 800px;
     width: 750px;
     background: transparent;
 }
 
-.pizza {
+body .container .pizza {
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
@@ -133,16 +144,17 @@ section {
     box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
 }
 
-p {
+body p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(218, 77, 77);
+    color: #FB3737;
     font-weight: bold;
+    font-family: Nunito;
     font-size: 15px;
 }
 
-img {
+body .container .pizza img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,41 +166,45 @@ img {
 }
 
 
-.preço {
+body .container .pizza .preço {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 15px;
     font-weight: bold;
 }
-.descricao {
+body .container .pizza .descricao {
     display: flex;
     justify-content: flex-start;
     font-size: 12px;
     margin-left: 15px;
     margin-top: 0px;
     color: rgb(103, 107, 106);
+    font-family: sans-serif;
 }
 
-.ingredientes {
+body .container .pizza .ingredientes {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-left: 15px;
     font-size: 10px;
     margin-top: -2px;
-    color: rgb(103, 107, 106);
+    color: rgba(103, 107, 106, 0.685);
     width: 105px;
+    font-family: sans-serif;
+    font-weight: 300;
 
 }
 
-.mapa {
+body .mapa {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 730px;
     height: 350px;
-    margin-left: 570px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -198,47 +214,63 @@ img {
 
 }
 
-iframe {
+body .mapa iframe {
     width: 700px;
     height: 270px;
     margin-bottom: 40px;
     border-radius: 10px;
 }
 
-.local {
+body .mapa iframe .local {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-h5 {
+
+body .mapa h5 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
     color: rgba(161, 161, 161, 0.918);
     font-size: 15px;
-
 }
 
-.fazerpedido {
+body .fazerpedido {
     display: flex;
     align-items: center;
-    margin-left: 565px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
-    background-color: rgb(224, 79, 79);
+    background-color: #FB3737;
     border-radius: 8px;
     width: 740px;
     height: 50px;
 }
-.btn {
+
+body .fazerpedido .pedidosselecionados {
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 140px;
+    margin-right: 40px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+body .fazerpedido .btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 150px;
     height: 30px;
     border-radius: 8px;
-    margin-left: 75%;
-    color: rgb(224, 79, 79);
+    margin-left: 50%;
+    margin-right: 20px;
+    color: #FB3737;
     font-weight: bold;
     border: none;
     background-color: white;
@@ -246,7 +278,66 @@ h5 {
 
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 50px;
     background-color: #02141ffd;
-    height: 70px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+.rodape h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgba(161, 161, 161, 0.918);
+}
+
+.rodape h6 .devsuperior {
+    color: azure;
+    margin-left: 5px;
+}
+
+footer .redesocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .socialyoutube img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+
+footer .sociallinkedin img {
+    display: flex;
+    justify-content: center;
+    height: 23px;
+    width: 23px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+footer .socialinstagram img {
+    display: flex;
+    justify-content: center;
+    height: 23px;
+    width: 23px;
+    margin-bottom: 10px;
+}
+
