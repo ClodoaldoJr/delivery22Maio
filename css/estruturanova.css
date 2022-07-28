@@ -19,10 +19,11 @@ body header {
 
 body header .logo {
     display: flex;
-    height: 80px;
+    height: 60px;
     width: 45px;
-    margin-left: 65px;
-    margin-top: 0px;
+    margin-left: 100px;
+    margin-top: 10px;
+  
 }
 
 body header .nomeempresa {
@@ -31,7 +32,7 @@ body header .nomeempresa {
     justify-content: center;
     align-items: center;
     color: white;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 26px;
     font-size: 30px;
     font-family: sans-serif;
@@ -42,16 +43,16 @@ body section {
     background-color: white; 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     height: 115px;
-    position: relative;
 }
 
 
 body section .texto1 h2{
     display: flex;
+    align-items: center;
     margin-left: 10em;
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 34px;
     font-weight: 700;
     font-family: sans-serif;
     width: 150px;
@@ -85,8 +86,8 @@ body section .texto3 h4 {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    margin-top: 5px;
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-left: 191px;
     color: rgba(161, 161, 161, 0.918);
     position: absolute;
     font-family: sans-serif;
@@ -105,19 +106,26 @@ body section .texto3 .negrito {
     font-size: 17px;
 }
 
-body section .npedido {
+
+body section .alerta {
     background-color:#c01010d7;
+    box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 65em;
     width: 280px;
     height: 50px;
-    margin-left: 50%;
-    border-radius: 10px;
+} 
+body section .alerta .npedido h5 {
     color: white;
     font-weight: bold;
-    box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
 
 body .container {
     display: flex;
@@ -159,9 +167,8 @@ body .container .pizza img {
     align-items: center;
     justify-content: center;
     margin-left: 15px;
-    margin-top: 12px;
     width: 130px;
-    height: 70px;
+    height: 80px;
     border-radius: 10px;
 }
 
@@ -188,7 +195,7 @@ body .container .pizza .ingredientes {
     align-items: center;
     justify-content: flex-start;
     margin-left: 15px;
-    font-size: 10px;
+    font-size: 9px;
     margin-top: -2px;
     color: rgba(103, 107, 106, 0.685);
     width: 105px;
