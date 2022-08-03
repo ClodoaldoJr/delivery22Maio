@@ -42,6 +42,7 @@ body header .nomeempresa {
 body section {
     background-color: white; 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 115px;
 }
@@ -50,7 +51,8 @@ body section {
 body section .texto1 h2{
     display: flex;
     align-items: center;
-    margin-left: 10em;
+    justify-content: center;
+    padding-left: 300px;
     margin-top: 30px;
     font-size: 34px;
     font-weight: 700;
@@ -59,64 +61,51 @@ body section .texto1 h2{
     color: #c01010d7;
 }
 
-body section .texto2 h3{
+body section .texto2 {
     display: flex;
-    font-size: 18px;
     align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    margin-left: 185px;
-    width: 322px;
-    height: 10px;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: 30rem;
+}
+
+body section .texto2 h3,h4 {
     color: rgba(161, 161, 161, 0.918);
-    position: absolute;
-    font-family: sans-serif;
-    font-weight: 400;
-}
-
-body section .texto2 b {
-    display: flex;
-    margin-right: 10px;
-    font-size: 22px;
-    color: #c01010d7;
-}
-
-body section .texto3 h4 {
+    font-size: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: 191px;
-    color: rgba(161, 161, 161, 0.918);
-    position: absolute;
-    font-family: sans-serif;
-    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
 }
 
-body section .texto3 b {
+body section .texto2 .b1, .b2 {
     display: flex;
-    margin-right: 10px;
-    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9px;
+    font-size: 20px;
     color: #c01010d7;
+    font-family: 'Nunito', sans-serif;
 }
 
-body section .texto3 .negrito {
+body section .texto2 .negrito {
     color: rgb(97, 95, 95);
     font-size: 17px;
+    padding-left: 5px;
 }
-
 
 body section .alerta {
     background-color:#c01010d7;
     box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 65em;
-    width: 280px;
-    height: 50px;
+    margin-right: 20px;
+    width: 250px;
+    height:50px;
 } 
 body section .alerta .npedido h5 {
     color: white;
@@ -150,6 +139,8 @@ body .container .pizza {
     background-color: rgb(255, 255, 255);
     border: none;
     box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
+    padding: 6px;
+    padding-bottom: 55px;
 }
 
 body p {
@@ -158,7 +149,7 @@ body p {
     justify-content: center;
     color: #c01010d7;
     font-weight: bold;
-    font-family: Nunito;
+    font-family: 'Nunito';
     font-size: 15px;
 }
 
@@ -195,8 +186,8 @@ body .container .pizza .ingredientes {
     align-items: center;
     justify-content: flex-start;
     margin-left: 15px;
-    font-size: 9px;
-    margin-top: -2px;
+    font-size: 11px;
+    margin-top: 12px;
     color: rgba(103, 107, 106, 0.685);
     width: 105px;
     font-family: sans-serif;
