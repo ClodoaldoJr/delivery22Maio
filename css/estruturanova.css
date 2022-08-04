@@ -40,51 +40,45 @@ body header .nomeempresa {
 }
 
 body section {
-    background-color: white; 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
+    background-color: white; 
     height: 115px;
 }
 
-
-body section .texto1 h2{
+body section .texto1 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-left: 300px;
-    margin-top: 30px;
-    font-size: 34px;
-    font-weight: 700;
-    font-family: sans-serif;
+    align-items: center;
     width: 150px;
+}
+
+body section .texto1 h2 {
+    font-size: 34px;
+    font-family: sans-serif;
     color: #c01010d7;
 }
 
 body section .texto2 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     list-style-type: none;
-    margin-right: 30rem;
+    margin-bottom: 30px;
+   
 }
 
 body section .texto2 h3,h4 {
     color: rgba(161, 161, 161, 0.918);
     font-size: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0px;
     font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
 }
 
 body section .texto2 .b1, .b2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 9px;
+ 
     font-size: 20px;
     color: #c01010d7;
     font-family: 'Nunito', sans-serif;
@@ -97,14 +91,13 @@ body section .texto2 .negrito {
 }
 
 body section .alerta {
-    background-color:#c01010d7;
-    box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
-    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
-    width: 250px;
+    background-color:#c01010d7;
+    box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
+    border-radius: 15px;
+    width: 340px;
     height:50px;
 } 
 body section .alerta .npedido h5 {
@@ -118,14 +111,14 @@ body section .alerta .npedido h5 {
 
 body .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     height: 800px;
-    width: 750px;
+    width: 900px;
     background: transparent;
 }
 
@@ -134,13 +127,12 @@ body .container .pizza {
     border: 1px solid black;
     border-radius: 10px;
     flex-direction: column;
-    height: 315px;
-    width: 160px;
+    height: 350px;
+    width: 180px;
     background-color: rgb(255, 255, 255);
     border: none;
     box-shadow: rgb(0 0 0 / 25%) 0px -1px 8px;
-    padding: 6px;
-    padding-bottom: 55px;
+    margin: 5px;
 }
 
 body p {
@@ -157,8 +149,8 @@ body .container .pizza img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
-    width: 130px;
+    margin-left: 10px;
+    width: 155px;
     height: 80px;
     border-radius: 10px;
 }
@@ -189,7 +181,7 @@ body .container .pizza .ingredientes {
     font-size: 11px;
     margin-top: 12px;
     color: rgba(103, 107, 106, 0.685);
-    width: 105px;
+    width: 150px;
     font-family: sans-serif;
     font-weight: 300;
 
@@ -199,7 +191,7 @@ body .mapa {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 730px;
+    width: 745px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
@@ -237,7 +229,7 @@ body .mapa h5 {
 body .fazerpedido {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -255,8 +247,6 @@ body .fazerpedido .pedidosselecionados {
     width: 140px;
     margin-right: 40px;
     display: flex;
-    align-items:flex-start;
-    justify-content: flex-start;
 }
 
 body .fazerpedido .btn {
@@ -266,8 +256,7 @@ body .fazerpedido .btn {
     width: 150px;
     height: 30px;
     border-radius: 8px;
-    margin-left: 50%;
-    margin-right: 20px;
+    
     color: #c01010d7;
     font-weight: bold;
     border: none;
@@ -283,9 +272,8 @@ footer {
     margin-top: 50px;
     background-color: #02141ffd;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: 100vw;
+  
 }
 
 .rodape h6 {
@@ -293,7 +281,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: rgba(161, 161, 161, 0.918);
 }
 
