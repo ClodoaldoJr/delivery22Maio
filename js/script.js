@@ -3,7 +3,7 @@
 // }
 
 // for(let i = 0; i < 11; i++){
-//     console.log("7 x " + i + " = " + 7*i);
+//     console.log("3 x " + i + " = " + 7*i);
 // }
 
 // var texto = "Junior";
